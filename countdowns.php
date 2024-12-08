@@ -1,6 +1,6 @@
 <?php
 // Initialize the countdown start value
-$countdown = 10;
+$countdown = 15;
 
 do {
     // Display the current countdown value
@@ -10,7 +10,7 @@ do {
     $countdown--;
 
     // Pause for 1 second to simulate a real-time timer
-    sleep(1);
+    sleep(3);
 } while ($countdown >= 0);
 
 echo "Timer finished!";
